@@ -1,0 +1,1 @@
+from type_media import add_types_media

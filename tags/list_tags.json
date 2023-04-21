@@ -1,0 +1,55 @@
+{
+  "model": "Tags",
+  "records": [
+    {
+      "name": "good morning"
+    },
+    {
+      "name": "good night"
+    },
+    {
+      "name": "sleep"
+    },
+    {
+      "name": "get up"
+    },
+    {
+      "name": "cute"
+    },
+    {
+      "name": "evil"
+    },
+    {
+      "name": "funny"
+    },
+    {
+      "name": "cringe"
+    },
+    {
+      "name": "so funny"
+    },
+    {
+      "name": "lunch"
+    },
+    {
+      "name": "food"
+    },
+    {
+      "name": "philosophy"
+    },
+    {
+      "name": "work"
+    },
+    {
+      "name": "monday"
+    },
+    {
+      "name": "friday"
+    },
+    {
+      "name": "relaxation"
+    },
+    {
+      "name": "cats"
+    }
+]}

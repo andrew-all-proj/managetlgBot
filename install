@@ -1,0 +1,57 @@
+#!/bin/bash
+NAME_USER=tlg_manager_bot
+DIR_TLG_BOT=/opt/tlg_manager_bot;
+
+#create dir for web_server
+if [ -d $DIR_TLG_BOT ]
+then
+echo "The $DIR_TLG_BOT directory exists"
+else
+sudo mkdir -p $DIR_TLG_BOT
+fi
+
+#install virtualenv
+sudo apt-get -y install virtualenv;
+
+sudo cp -r * $DIR_TLG_BOT;
+#change dir
+cd $DIR_TLG_BOT;
+#create virtual
+sudo virtualenv venv;
+source venv/bin/activate;
+#install packages
+pip install -r requirements.txt;
+deactivate;
+
+#Create user
+sudo useradd -d $DIR_TLG_BOT $NAME_USER
+
+sudo chown -R $NAME_USER:$NAME_USER $DIR_TLG_BOT
+
+#create demon file
+sudo touch /etc/systemd/system/tlg_manager_bot.service;
+
+#file config demon
+conf_demon=`cat <<_EOF_
+
+[Unit]
+Description=tlg_mansge_bot
+After=multi-user.target
+
+[Service]
+User=tlg_manager_bot
+Group=tlg_manager_bot
+Type=idle
+WorkingDirectory=/opt/tlg_manager_bot
+ExecStart=/opt/tlg_manager_bot/venv/bin/python3 app.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+_EOF_
+`
+echo "$conf_demon" |  sudo tee /etc/systemd/system/tlg_manager_bot.service;
+
+#activate and start demon
+sudo systemctl enable  tlg_manager_bot.service;
+sudo systemctl start tlg_manager_bot.service;

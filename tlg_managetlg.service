@@ -1,0 +1,14 @@
+[Unit]
+Description=Start web server
+After=network.target
+
+[Service]
+User=user_managetlg
+Group=www-data
+WorkingDirectory=/opt/api_managetlg
+Enviroment="PATH=/opt/api_managetlg/venv/bin"
+ExecStart=/opt/api_managetlg/venv/bin/gunicorn --workers 2 --bind unix:gunicorn.sock --timeout 600 -m 007 wsgi:app 
+Restart=always
+		
+[Install]
+WantedBy=multi-user.target

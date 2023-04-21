@@ -1,0 +1,200 @@
+{
+  "model": "TypeMedia",
+  "records": [
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "mp4"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "3gp"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "mpeg"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "avi"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "dat"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "mkv"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "mpg"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "rm"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "wmv"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "wm"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "mov"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "ts"
+    },
+    {
+      "media": "video",
+      "path_dir": "/video",
+      "extension": "swf"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "tiff"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "bmp"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "jpeg"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "jpg"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "gif"
+    },
+    {
+      "media": "image",
+      "path_dir": "/image",
+      "extension": "png"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "aac"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "ac3"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "aif"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "aiff"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "amr"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "flac"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "m3u8"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "m4a"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "m4b"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "mid"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "mod"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "mp3"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "mpa"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "ogg"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "ra"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "ram"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "wav"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "wave"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "wm"
+    },
+    {
+      "media": "audio",
+      "path_dir": "/audio",
+      "extension": "wma"
+    }
+  ]
+}

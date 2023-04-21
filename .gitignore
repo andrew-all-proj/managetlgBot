@@ -1,0 +1,5 @@
+__pycache__
+venv
+.idea
+log_bot.log
+token_.py
